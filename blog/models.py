@@ -12,6 +12,7 @@ class BlogPost(models.Model):
 		ordering=('-timestamp',)
 
 class BlogPostForm(forms.ModelForm):
+	#title=forms.ChoiceField(choices=[('1','1'),('2','2')])
 	class Meta:
 		model=BlogPost
 		exclude=('timestamp',)

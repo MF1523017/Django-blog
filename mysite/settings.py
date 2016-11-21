@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': r'H:\python_learning\Django\db\mysite.db',
+        'NAME': '/tmp/mysite.db',
     }
 }
 
